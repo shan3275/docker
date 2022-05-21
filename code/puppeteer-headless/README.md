@@ -1,5 +1,5 @@
-# express web server demo
-nodejs express web server hello world demo
+# puppeteer headless demo
+nodejs puppeteer headless demo
 
 # Build
 ```
