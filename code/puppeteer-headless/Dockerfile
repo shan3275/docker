@@ -22,4 +22,4 @@ RUN ["npm", "install"]
 # Run everything after as non-privileged user.
 USER pptruser
 
-CMD [ "chromium" ]
+#CMD [ "chromium" ]
