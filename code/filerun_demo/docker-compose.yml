@@ -8,11 +8,14 @@ services:
       MYSQL_USER: filerun
       MYSQL_PASSWORD: filerun_password
       MYSQL_DATABASE: filerun
+      MYSQL_TCP_PORT: 3308
       PUID: 1000
       PGID: 1000
       TZ: Europe/London
     ports:
-      - "3308:3306"
+    - 3308:3308
+    expose:
+      - 3308
     volumes:
       - /Users/liudeshan/work/learning/docker/code/filerun_demo/filerun/db:/var/lib/mysql
 
